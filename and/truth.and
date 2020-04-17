@@ -1,0 +1,1 @@
+test = 0 && test := input || print test && test = '0' && exit
