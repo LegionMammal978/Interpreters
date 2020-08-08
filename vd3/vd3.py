@@ -74,6 +74,7 @@ def run(code, v1=False):
             if total < 0 or total > 255:
                 raise ValueError('line {}: invalid character'.format(i + 1))
             sys.stdout.buffer.write(bytes([total]))
+            sys.stdout.flush()
         ip += 1
 
 if __name__ == '__main__':

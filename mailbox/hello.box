@@ -1,0 +1,5 @@
+box 0
+(once)
+send "Hello, World!" to 0
+(from 0)
+output

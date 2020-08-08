@@ -1,0 +1,8 @@
+box 0
+(once)
+send input to 0
+(from 0)
+output
+empty
+(contains "1")
+forward to 0
